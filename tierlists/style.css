@@ -1,0 +1,47 @@
+body { background-color: rgb(0, 0, 0); }
+
+#s { background-color: rgb(0, 200, 0); }
+#a { background-color: rgb(100, 200, 0); }
+#b { background-color: rgb(150, 200, 0); }
+#c { background-color: rgb(200, 200, 0); }
+#d { background-color: rgb(200, 100, 0); }
+#f { background-color: rgb(200, 0, 0); }
+
+.tier
+{
+  padding: 2.5vw;
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(25, 25, 25);
+  width: 2.5vw;
+  height: 2.5vw;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1vh;
+}
+
+.tierLine
+{
+  margin-left: .5vw;
+  width: 75%;
+  background-color: rgb(25, 25, 25);
+  padding: 2.5vw;
+  max-height: 2.5vw;
+  margin-bottom: 1vh;
+}
+
+.containerContainer
+{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.tierContainer { display: flex; }
+
+img
+{
+  width: 5vw;
+  height: 5vw;
+}
